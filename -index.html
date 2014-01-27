@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html
+<head>
+	<title>#NuncaMaisLumes</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+<div class="header">
+	<center> <h1><a href="https://twitter.com/#!/search/realtime/%23SosFragasDoEume">&larr; #NuncaMaisLumes</a></h1></center>
+</div>
+	<div id="barra-lateral"> 
+	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#SosFragasdoEume',
+  interval: 30000,
+  title: '#NuncaMaisLumes',
+  subject: '#NuncaMaisLumes en Galicia',
+  width: 230,
+  height: 420,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+	
+	</div>
+	<form method="post" class="contacto">
+	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+
+ 	    <fieldset>
+			<div><label>Nome:</label><input type="text" class="nombre" name="nome" /></div>
+			<div><label>Email:</label><input type="text" class="email" name="email" /></div>
+			<div> <b><label>Mail Destino:</label><input type="text" class="telefono" name="email" value="secretaria.presidente@xunta.es" DISABLED /></b></div>
+			<div><label>Mensaxe:</label><textarea cols="100" rows="15" class="mensaje" name="mensaje" >Quero amosar a miña enorme preocupación incendio que está a afectar ao Parque Natural das Fragas do Eume, un espazo único en Galicia e Europa que está sendo gravemente danado.  
+
+As unicas explicacións están en:
+-	No desartellamento  dos dispositivos de brigadas forestais 
+-	A elimininación sectaria das medidas preventivas
+-	A ausencia de políticas de valoración do monte.
+
+A presenza e actuación dos incendiarios no monte galego non é un dato novo, como quer facer ver o presidente Feijóo para exculpar a súa inacción e irresponsabillidade. O novo dato son os comportamentos e decisións dun goberno ausente que para xustificar o seu non facer só se dedica a facer declaracións incendiarias e demagóxicas.
+			</textarea></div>
+ 	        <div class="ultimo">
+				<img src="ajax.gif" class="ajaxgif hide" />
+				<div class="msg"></div>
+				<button class="boton_envio">Enviar Mensaxe</button>
+			</div>
+ 	    </fieldset>
+ 	 </form>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="funciones.js"></script>
+</body>
+</html>

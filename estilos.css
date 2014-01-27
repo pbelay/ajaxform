@@ -1,0 +1,139 @@
+/* Estilos Base */
+*{
+    
+}
+body {
+    
+    font: 12px sans-serif;
+    /*background: #F4F4F4;*/
+	background-image:url('lume2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color: #575757;
+
+	//background-image:url('lume1.jpg');
+}
+/* Estilos del formulario */
+form.contacto {
+	color: #262626;
+	opacity: 0.8;
+    margin: 25px auto 0;
+    //width: 500px;
+	width: 75%;
+	
+}
+
+
+a.header:link {text-decoration: none}
+a.header:visited {text-decoration: none}
+a.header:active {text-decoration: none}
+a.header:hover {text-decoration: underline; color: red;}
+
+div.header{
+	font-weight:bold;
+	font-size: 21px;
+	color:white;	
+	position: center;
+}
+
+div.footer {
+	margin: 25px auto 0;
+	font-size: 14px;
+	color:white;	
+	position: center;
+
+}
+
+#barra-lateral {
+			margin: 25px auto 0;
+            float: right;
+            width:250px;
+            height:100%;
+			opacity: 0.8;
+        }
+form.contacto fieldset {
+    background: 0 0 white;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 0 10px 0 #DADADA;
+    -webkit-box-shadow: 0 0 10px 0 #DADADA;
+    -moz-box-shadow: 0 0 10px 0 #DADADA;
+    padding: 25px;
+}
+form.contacto fieldset > div {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+form.contacto fieldset div label {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 100px;
+}
+form.contacto input[type="text"], form.contacto textarea {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    color: #626262;
+    display: block;
+    float: left;
+    padding: 8px;
+    resize: none;
+    width: 400px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+}
+form.contacto input[type="text"]:focus, form.contacto textarea:focus {
+	background: #F9F9F9;
+	border: 1px solid #D3D3D3;
+	outline: none;
+}
+form.contacto .ultimo{
+    margin-bottom: 0;
+    position: relative
+}
+form.contacto button {
+	background: #444444;
+    border: 0 none;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 10px;
+    position: relative;
+    text-transform: uppercase;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+form.contacto button:hover{
+	background: #6A6A6A;
+}
+
+/* AJAX Gif y mensajes de exito o fracaso */
+.hide{
+	display: none;
+}
+.ajaxgif{
+	position: absolute;
+    right: 150px;
+    top: 5px;
+}
+.msg{
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    position: absolute;
+	right: -155px;
+    text-transform: uppercase;
+	min-width: 121px;
+}
+.msg_ok{
+	background: #589D05;
+}
+.msg_error{
+	background: red;
+}
